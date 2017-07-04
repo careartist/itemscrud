@@ -28,7 +28,7 @@ class ItemRequest extends \Backpack\CRUD\app\Http\Requests\CrudRequest
             'content' => 'required|min:2',
             'date' => 'required|date',
             'status' => 'required',
-            'category_id' => 'required',
+            'type_id' => 'required',
         ];
     }
 
