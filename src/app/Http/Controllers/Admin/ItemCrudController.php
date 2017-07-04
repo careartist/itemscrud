@@ -48,10 +48,10 @@ class ItemCrudController extends CrudController
                                 'type' => 'check',
                             ]);
         $this->crud->addColumn([
-                                'label' => 'Category',
+                                'label' => 'Type',
                                 'type' => 'select',
-                                'name' => 'category_id',
-                                'entity' => 'category',
+                                'name' => 'type_id',
+                                'entity' => 'type',
                                 'attribute' => 'name',
                                 'model' => "Backpack\ItemsCRUD\app\Models\Type",
                             ]);
